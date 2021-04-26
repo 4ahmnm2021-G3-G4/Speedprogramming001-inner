@@ -5,19 +5,18 @@ using UnityEngine.UI;
 
 public class StatementButton : MonoBehaviour
 {
-    GameObject Wahr;
-  GameObject Falsch;
-    bool aButton = true;
+ 
+   bool aButton = true;
 
 public void SwitchAnswer(){
 
 if(aButton)
 {
-Wahr.text = "Antworten sind wahr.";
+GetComponent<Text>().text = "wahr.";
 aButton = false;
 }
 else {
-Falsch.text = "Antworten sind falsch.";
+GetComponent<Text>().text = "falsch.";
 aButton = true;
 }
 
