@@ -12,11 +12,11 @@ public void SwitchAnswer(){
 
 if(aButton)
 {
-GetComponent<Text>().text = "wahr.";
+GetComponent<Text>().text = "falsch";
 aButton = false;
 }
 else {
-GetComponent<Text>().text = "falsch.";
+GetComponent<Text>().text = "wahr";
 aButton = true;
 }
 
