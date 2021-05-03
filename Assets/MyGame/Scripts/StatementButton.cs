@@ -5,8 +5,9 @@ using UnityEngine.UI;
 
 public class StatementButton : MonoBehaviour
 {
+
  
-   bool aButton = true;
+bool aButton = true;
 
 public void SwitchAnswer(){
 
